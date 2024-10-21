@@ -1,27 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.hero-section {
+  height: 90vh; /* Full viewport height */
+}
+.pics {
+  object-fit: cover;
+  z-index: -5;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.coffee-mug {
+  position: absolute; /* Position the mug absolutely */
+  left: 54%; /* Fix to the right side */
+
+  top: 118%; /* Adjust top as needed */
+  width: 600px; /* Set desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 2%; /* Add margin to avoid touching screen edge */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.coffee-mug-section-img {
+  object-fit: cover;
+  position: relative;
+  top: 0%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.hero-sections {
+  position: relative;
+  width: 99%;
+  height: 90vh; /* Adjust based on your page height */
+  overflow: hidden; /* Ensure no scrollbars appear */
+}
+.hero-section,
+.hero-sections {
+  margin: 0;
+  padding: 0;
+}
+.hline {
+  width: 35%;
+  border: 2px solid black;
+}
+.about-description {
+  line-height: 1.6; /* Adjusts the space between lines */
+  text-align: left; /* Ensures the text is aligned to the left */
+  margin-top: 10px; /* Adds some spacing from the heading */
+}
+.learn-more-btn {
+  background-color: #3c1103; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 20px; /* Font size */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  position: relative;
+  right: 88%;
+  top: 65%;
+}
+
+.learn-more-btn:hover {
+  background-color: #f7f3f3; /* Darker background on hover */
+  color: #923a1c;
 }
