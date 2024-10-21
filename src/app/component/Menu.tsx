@@ -13,7 +13,7 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center  h-full block"
-                  src={require("../../../public/espresso.png")}
+                  src="/espresso.png"
                   width={280}
                   height={200}
                 />
@@ -33,7 +33,7 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center  h-full block relative top-4"
-                  src={require("../../../public/cappu.png")}
+                  src="/cappu.png"
                   width={280}
                   height={200}
                 />
@@ -53,7 +53,7 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center h-full block"
-                  src={require("../../../public/llattee.png")}
+                  src="/llattee.png"
                   width={260}
                   height={200}
                 />
@@ -73,7 +73,7 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center  h-full block"
-                  src={require("../../../public/mocha.png")}
+                  src="/mocha.png"
                   width={280}
                   height={200}
                 />

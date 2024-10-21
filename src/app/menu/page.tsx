@@ -13,7 +13,7 @@ const MoreMenuPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/pngtree-cappuccino-ice-with-cup-png-image_12777363.png")}
+                  src="/pngtree-cappuccino-ice-with-cup-png-image_12777363.png"
                   alt="Iced Cappuccino"
                   width={200}
                   height={200}
@@ -24,7 +24,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/ilatte.png")}
+                  src="/ilatte.png"
                   alt="Iced Latte"
                   width={200}
                   height={200}
@@ -35,7 +35,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/coldbrew.png")}
+                  src="/coldbrew.png"
                   alt="Cold Brew"
                   width={200}
                   height={200}
@@ -53,7 +53,7 @@ const MoreMenuPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/caramel.jpg")}
+                  src="/caramel.jpg"
                   alt="Caramel Macchiato"
                   width={200}
                   height={200}
@@ -64,7 +64,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/latte.jpg")}
+                  src="/latte.jpg"
                   alt="Cinnamon Latte"
                   width={200}
                   height={200}
@@ -75,7 +75,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/irish.png")}
+                  src="/irish.png"
                   alt="Irish Coffee"
                   width={200}
                   height={200}
@@ -93,7 +93,7 @@ const MoreMenuPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/Hot-Chocolate-PNG-HD-Quality.png")}
+                  src="/Hot-Chocolate-PNG-HD-Quality.png"
                   alt="Hot Chocolate"
                   width={200}
                   height={200}
@@ -104,7 +104,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/tea.png")}
+                  src="/tea.png"
                   alt="Tea"
                   width={200}
                   height={200}
@@ -115,7 +115,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/juice.png")}
+                  src="/juice.png"
                   alt="Fresh Juice"
                   width={200}
                   height={200}
@@ -133,7 +133,7 @@ const MoreMenuPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/cream.png")}
+                  src="/cream.png"
                   alt="Whipped Cream"
                   width={200}
                   height={200}
@@ -144,7 +144,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/vanillasyrup.png")}
+                  src="/vanillasyrup.png"
                   alt="Vanilla Syrup"
                   width={199}
                   height={250}
@@ -155,7 +155,7 @@ const MoreMenuPage = () => {
               </div>
               <div className="p-4 bg-white rounded shadow-md text-center hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                 <Image
-                  src={require("../../../public/cramelsyrup.png")}
+                  src="/cramelsyrup.png"
                   alt="Caramel Syrup"
                   width={320}
                   height={250}

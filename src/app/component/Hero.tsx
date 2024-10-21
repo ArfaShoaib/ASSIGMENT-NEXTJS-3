@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-section ">
       <Image
-        src={require("../../../public/coffee.jpg")}
+        src="/coffee.jpg"
         alt="coffee"
        fill={true}
         className="pics"

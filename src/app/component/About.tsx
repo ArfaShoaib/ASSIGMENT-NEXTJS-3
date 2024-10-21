@@ -35,7 +35,7 @@ const About = () => {
         className="coffee-mug"
       >
         <Image
-          src={require('../../../public/Hot-coffee-drink-on-transparent-background-PNG.png')}
+          src='/Hot-coffee-drink-on-transparent-background-PNG.png'
           alt="Coffee Mug"
           width={500}
           height={350}
