@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useRef, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { FaStar } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Reviews = () => {
   const reviews = [
@@ -78,7 +79,7 @@ const Reviews = () => {
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <div className="flex items-center mb-4">
-              <img
+              <Image
                 src={review.avatar}
                 alt="User Avatar"
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 sm:mr-4"
