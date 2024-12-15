@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-<footer className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+    <div className='w-full'>
+<footer className="text-gray-600 body-font w-full">
+  <div className="container px-4 sm:px-5 py-12 sm:py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div className="w-full md:w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -14,83 +14,83 @@ const Footer = () => {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className="w-10 h-10 text-white p-2 bg-brown-500 rounded-full"
+          className="w-8 sm:w-10 h-8 sm:h-10  text-white p-2 bg-brown-500 rounded-full"
           viewBox="0 0 24 24"
         >
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-        <span className="ml-3 text-xl font-newfonts">Coffee Haven</span>
+        <span className="ml-3 text-lg sm:text-xl font-newfonts">Coffee Haven</span>
       </a>
-      <p className="mt-2 text-sm text-gray-500 font-Sanns">
+      <p className="mt-2 text-sm text-gray-500 font-Sanns px-4 sm:px-0">
         Your perfect cup of coffee is just a sip away. Enjoy fresh brews, cozy vibes, and the finest beans in every cup.
       </p>
     </div>
     <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-base mb-3 font-Sanns">COFFEE MENU</h2>
-        <nav className="list-none mb-10 font-Mont">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-8 md:mb-0">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm sm:text-base mb-3 font-Sanns">COFFEE MENU</h2>
+        <nav className="list-none mb-10 font-Mont space-y-2">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Hot Coffees</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Hot Coffees</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Cold Brews</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Cold Brews</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Specialty Drinks</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Specialty Drinks</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Non-Coffee Options</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Non-Coffee Options</a>
+          </li>
+        </nav>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-8 md:mb-0">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm  sm:text-base mb-3 font-Sanns">LOCATIONS</h2>
+        <nav className="list-none mb-10 font-Mont space-y-2">
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Downtown</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Uptown</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Suburbs</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Beachside</a>
+          </li>
+        </nav>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-8 md:mb-0">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm  sm:text-base mb-3 font-Sanns">ABOUT US</h2>
+        <nav className="list-none mb-10 font-Mont space-y-2">
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Our Story</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Sustainability</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Careers</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Contact Us</a>
           </li>
         </nav>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-base mb-3 font-Sanns">LOCATIONS</h2>
-        <nav className="list-none mb-10 font-Mont">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm  sm:text-base mb-3 font-Sanns">CONNECT WITH US</h2>
+        <nav className="list-none mb-10 font-Mont space-y-2">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Downtown</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Instagram</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Uptown</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Facebook</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Suburbs</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">Twitter</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Beachside</a>
-          </li>
-        </nav>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-base mb-3 font-Sanns">ABOUT US</h2>
-        <nav className="list-none mb-10 font-Mont">
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Our Story</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Sustainability</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Careers</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Contact Us</a>
-          </li>
-        </nav>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-base mb-3 font-Sanns">CONNECT WITH US</h2>
-        <nav className="list-none mb-10 font-Mont">
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Instagram</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Facebook</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Twitter</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">LinkedIn</a>
+            <a className="text-gray-600 hover:text-gray-800 text-sm sm:text-base">LinkedIn</a>
           </li>
         </nav>
       </div>

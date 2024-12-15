@@ -5,9 +5,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-.hero-section {
-  height: 90vh; /* Full viewport height */
+* {
+  box-sizing: border-box; /* Prevent elements from growing outside their container */
+}
+.hero-section{
+  height: 85vh; /* Full viewport height */
+  width: 100%;
+  max-width: 100%;
 }
 .pics {
   object-fit: cover;
@@ -16,7 +28,7 @@
 
 .coffee-mug {
   position: absolute; /* Position the mug absolutely */
-  left: 54%; /* Fix to the right side */
+  left: 50%; /* Fix to the right side */
 
   top: 118%; /* Adjust top as needed */
   width: 600px; /* Set desired width */
@@ -32,7 +44,7 @@
 
 .hero-sections {
   position: relative;
-  width: 99%;
+  width: 88%;
   height: 90vh; /* Adjust based on your page height */
   overflow: hidden; /* Ensure no scrollbars appear */
 }
@@ -67,4 +79,25 @@
 .learn-more-btn:hover {
   background-color: #f7f3f3; /* Darker background on hover */
   color: #923a1c;
+}
+@media (max-width: 768px) {
+  /* Apply styles for smaller screens (Surface Duo, Galaxy S8+) */
+  .hero-section, .hero-sections {
+    width: 100%;
+    padding: 0; /* Ensure no padding on smaller screens */
+  }
+
+  .coffee-mug {
+    position: absolute;
+    left: 90%; /* Center it */
+    top: 118%; /* Adjust this value */
+    transform: translateX(-50%); /* Make sure it stays centered */
+    max-width: 100%;
+  }
+
+  .pics {
+    object-fit: cover;
+    width: 100%; /* Ensure it fills the screen */
+    height: auto;
+  }
 }

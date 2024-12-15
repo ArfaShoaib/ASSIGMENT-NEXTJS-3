@@ -10,21 +10,21 @@ const Reviews = () => {
   const reviews = [
     {
       name: 'John Doe',
-      avatar: 'https://via.placeholder.com/150',
+      
       date: 'October 20, 2024',
       text: 'The coffee here is amazing! Highly recommend the caramel latte.',
       rating: 5,
     },
     {
       name: 'Jane Smith',
-      avatar: 'https://via.placeholder.com/150',
+      
       date: 'October 18, 2024',
       text: 'Great ambiance and delicious espresso.',
       rating: 4,
     },
     {
       name: 'Alex Brown',
-      avatar: 'https://via.placeholder.com/150',
+     
       date: 'October 17, 2024',
       text: 'Love the specialty drinks, especially the cold brews!',
       rating: 5,
@@ -80,9 +80,11 @@ const Reviews = () => {
           >
             <div className="flex items-center mb-4">
               <Image
-                src={review.avatar}
+                src={"#"}
                 alt="User Avatar"
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-3 sm:mr-4"
+                width={0}
+                height={0}
               />
               <div>
                 <h3 className="font-bold text-base sm:text-lg">{review.name}</h3>
